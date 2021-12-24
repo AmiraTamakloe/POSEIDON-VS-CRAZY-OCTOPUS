@@ -1,0 +1,26 @@
+Collision
+    collision = isCollission(enemyX[i], enemyY[i],bulletX, bulletY)
+    if collision:
+        bulletY = 480
+        bullet_state = "ready"
+        score_value += 1
+        print(score_value)
+        enemyX = random.randint(0, 735)
+        enemyY = random.randint(50, 150)
+
+For 1 enemy
+    enemyX += enemyX_change
+    if 0 >= enemyX:
+        enemyX_change = 0.4
+        enemyY += enemyY_change
+    if enemyX >= 736:
+        enemyX_change = -0.4
+        enemyY += enemyY_change
+
+
+For one enemy :
+enemyImg = pygame.image.load(f"images/octopus.png")
+enemyX = random.randint(0,735)
+enemyY = random.randint(50,150)
+enemyX_change = 0.4
+enemyY_change = 40
