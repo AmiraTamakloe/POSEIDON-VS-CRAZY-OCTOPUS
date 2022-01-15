@@ -1,1 +1,3 @@
 # PYGAME
+
+This is my second game using PyGame. My goal was to build something more complex than my previous hangman game therefore, I decided to build a menu and a game where the player could interact with enemies. I also wanted to explore a lot of PyGame function so I added sound effects, music in the background and a score board. The player takes the role of Poseidon and the enemies are the octopuses and Poseidon’s goal is to kill the octopuses before they touch him. When Poseidon kills an octopus, another octopus is created and place randomly on the game. The game ends when one octopus finally reaches Poseidon.
